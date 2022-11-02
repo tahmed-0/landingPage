@@ -9,12 +9,9 @@ body {
 .header {
     display: flex;
     background-color: rgb(43, 113, 151);
-    height: 100px;
-
-
+    justify-content: center;
+    justify-content: space-around;
     
-
-   
 }
 
 .left {
@@ -24,15 +21,12 @@ body {
     font-size: 28px;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 20px;
     
 }
 .right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex: 1;
-    
    
 }
 
