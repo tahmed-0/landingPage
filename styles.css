@@ -4,6 +4,8 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 
+    position: relative;
+    min-height: 100vh;
 
 }
 
@@ -120,17 +122,45 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
+
   
 }
 
 .box {
-    border: 1px solid rgb(207, 153, 153);
     width: 100px;
     height: 100px;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
 
+}
+.box p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    padding: 1px;
+
+}
+
+.box img {
+    width:  100px;
+    height: 100px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #1f2937;
+    padding: 10px;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
