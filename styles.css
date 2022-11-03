@@ -53,27 +53,35 @@ ul {
 }
 
 .content {
+    padding-top: 20px;
+    padding-bottom: 48px;
     display: flex;
     min-height: 100px;
     background-color: #1f2937;
     justify-content: center;
-    justify-content: space-around;
-    
+     justify-content: space-around;
+     align-items: center;  
+     text-align: center;
+     flex-wrap: wrap;
     
 }
 
 .info {
+    padding: 0;
+    margin: 0;
     color: white;
-    text-align: center;
    
 }
 
 img {
     display: flex;
-    max-width: 50%;
-    max-height: 50%;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
     border-radius: 10px;
     justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     
 }
 
@@ -90,5 +98,6 @@ img {
 .bookNowBtn:hover {
     background-color: #366bc1;
     cursor: pointer;
+   
 }
 
